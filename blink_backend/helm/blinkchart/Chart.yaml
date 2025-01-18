@@ -1,6 +1,18 @@
 apiVersion: v2
 name: blinkchart
-description: A Helm chart for Kubernetes
+version: 0.1.0 
+repository: "https://github.com/TheEddieNygma/blink_backend"
+tags: dev
+description: blink is application made for screen print bidding
 type: application
-version: 0.1.0
+#home: The URL of this projects home page (optional)
+#sources:
+  #- A list of URLs to source code for this project (optional)
+dependencies: 
+  #- name:
+  #  version:
+maintainers: 
+  - name: Richard Anderson
+    email: lotus.solutions.atx@outlook.com
+icon: "https://drive.google.com/file/d/1jyWVsxDBqldYqtQmMo5gL2l2GzXhEKfz/view?usp=drive_link"
 appVersion: "1.16.0"
